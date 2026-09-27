@@ -58,8 +58,8 @@ Obsidian (Dataview, DataviewJS, Templater, Tasks, Kanban, Periodic Notes, Heatma
 
 ## Related
 
-- [Engineering Tool Hub](https://github.com/LamboProjects/engineering-tool-hub) — the desktop automation suite that works alongside this vault.
+- [Engineering Tool Hub](https://github.com/LambertBadong/engineering-tool-hub) — the desktop automation suite that works alongside this vault.
 
 ---
 
-Built by **Lambert Badong** · [GitHub](https://github.com/LamboProjects)
+Built by **Lambert Badong** · [GitHub](https://github.com/LambertBadong)
