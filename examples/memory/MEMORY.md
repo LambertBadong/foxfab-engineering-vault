@@ -1,0 +1,45 @@
+- User: role (`user_role.md`) - mechanical designer, personal part-number prefix, who leads and who programs
+- Ref: job folders (`reference_job_paths.md`) - jobs root, release-form cell map, the three mechanical folder layouts
+- Ref: job workflow (`reference_job_workflow.md`) - reference > modelling > BOM > refresh files > packet
+- Project: vault workflow (`project_vault_workflow.md`) - "new job" and "I finished" triggers, parts frequency, stage field
+- FB: log after tangible (`feedback_log_after_tangible.md`) - auto-log to the daily note with job and kind tags
+- FB: check time before logging (`feedback_check_time_before_logging.md`) - read the clock first; never invent a timestamp
+- FB: stage and board in step (`feedback_stage_board_sync.md`) - every stage change also moves the card on the job board
+- FB: stage field vs note body (`feedback_stage_vs_body.md`) - body can say "waiting" while the field says Started
+- FB: job archive is read-only (`feedback_archive_readonly.md`) - copy out only; named exceptions for the BOM tools
+- [FB: read the named sheet](read-the-named-sheet.md) - select the release form's sheet by name, never the active one
+- FB: queries and graph (`feedback_query_patterns.md`) - links in the body drive the graph; query from the jobs side
+- Ref: CAD watcher (`reference_cad_watcher.md`) - detached launch, how to stop it, backfill rules; stops when the laptop sleeps or the session closes
+- Ref: vault inventory (`reference_vault_inventory.md`) - folder map, plugins, job-note fields, daily layout
+- FB: daily rituals (`feedback_daily_rituals.md`) - morning briefing and watcher; end of day sweep and backup
+- Ref: scheduled rituals (`reference_scheduled_rituals.md`) - both also run on a schedule; check the note before running by hand
+- FB: commit identity (`feedback_commit_identity.md`) - set the identity per clone; the machine default is someone else's
+- FB: team pull requests (`feedback_team_pull_requests.md`) - no auto-merge, ever; a colleague approves
+- FB: end-of-day backup (`feedback_eod_backup.md`) - additive copy plus my own repository only
+- FB: additive copy can still clobber (`feedback_additive_copy_clobbers.md`) - skip files newer at the destination; list them first
+- FB: build on a local path (`feedback_build_locally.md`) - the build script fails on a network path; stage to a short local one
+- FB: fix visuals silently (`feedback_fix_visuals_silently.md`) - fix overlap and clipping without asking; ask only on content
+- FB: terse tool UI (`feedback_terse_tool_ui.md`) - the surface states, the tooltip explains
+- Ref: printer (`reference_printer.md`) - black and white duplex; colour needs admin; printing waits for a go-ahead
+- Ref: glossary (`reference_glossary.md`) - the shop's abbreviations
+- FB: spreadsheet copy of an open file (`feedback_copy_open_files.md`) - one copy call fails on open files; use the other
+- FB: early binding in CAD macros (`feedback_cad_early_binding.md`) - late binding is broken in the current release
+- FB: reference means same enclosure (`feedback_reference_same_enclosure.md`) - only offer candidates in the same size of box
+- [FB: no tests on live jobs](test-in-the-sandbox.md) - sandbox folder only, until told otherwise
+- [FB: a check must be able to fail](a-check-must-be-able-to-fail.md) - a check must tell success from absence
+- [FB: record every mistake](record-every-mistake.md) - STANDING: every fixed mistake goes to memory, same session
+- FB: swallowed errors (`feedback_swallowed_errors.md`) - an error handler that resets state looks like bad data
+- FB: guard from the authority (`feedback_guard_from_the_authority.md`) - a safety check reads the source of truth, not a cached copy
+- FB: enum across a boundary (`feedback_enum_across_a_boundary.md`) - two copies of a list drift; an unknown value takes the else
+- FB: count the thing (`feedback_count_the_thing.md`) - hidden lock files double a count; verify numbers against the folder
+- FB: deleting code safely (`feedback_deleting_code_safely.md`) - list what exists before and after; refuse on any surprise
+- FB: version control restore destroys work (`feedback_restore_destroys_work.md`) - copy aside first
+- FB: repair the whole thing (`feedback_repair_the_whole_thing.md`) - a partial fix can verify green while the old state is still valid
+- FB: shipping to coworkers (`feedback_shipping_to_coworkers.md`) - spaces in paths, machine-specific environments
+- FB: hidden test windows (`feedback_hidden_test_windows.md`) - a visible test window steals my clicks
+- FB: close CAD documents after use (`feedback_close_cad_docs.md`) - close what the script opened; nothing else
+- FB: never exit my CAD session (`feedback_never_exit_cad.md`) - the session a script receives is mine
+- FB: ask before long CAD runs (`feedback_ask_before_long_runs.md`) - one hung and took the application down
+- FB: concise answers (`feedback_concise_answers.md`) - short core answer, offer to expand
+
+… trimmed. The full index runs to about 150 lines. Only the four lessons published in this folder are linked.
