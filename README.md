@@ -10,6 +10,10 @@
 
 > **Showcase repository.** The vault itself holds my employer's job and design data and stays private. This repo documents how the system works. The files under [`examples/`](examples/) are real in structure and rewritten in content: every job number, customer, part number and path is invented.
 
+![Graph view of the vault: jobs, parts and daily notes and the links between them](docs/img/graph-view.png)
+
+<sub>The vault's graph view, redrawn from its real link structure: 1,863 linked notes and 2,731 links. Each large dot is a job, surrounded by the parts it uses; parts shared between jobs pull those jobs together. Every job and part number shown is invented.</sub>
+
 ---
 
 ## At a glance
